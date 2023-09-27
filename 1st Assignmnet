@@ -1,0 +1,19 @@
+asdfhaskflh
+asdfhaskldjfh
+asdfhasd
+sakdfhasdflkjhsd
+asdfhasdk
+asdhfkdas
+adksfhladksh
+asdkfhasjk
+worker-dd46d7584-wkspx    1/1     Running   0          9m39s
+[root@ip-172-31-47-237 result]# kubectl get rs
+NAME                DESIRED   CURRENT   READY   AGE
+db-b54cd94f4        1         1         1       10m
+redis-868d64d78     1         1         1       10m
+result-5d57b59f4b   1         1         1       10m
+vote-94849dc97      1         1         1       10m
+worker-dd46d7584    1         1         1       10m
+[root@ip-172-31-47-237 result]# kubectl get po
+NAME                      READY   STATUS    RESTARTS   AGE
+db-b54cd94f4-j2g9p        1/1     Running   0          9m40s
